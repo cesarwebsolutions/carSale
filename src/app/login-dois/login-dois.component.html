@@ -1,0 +1,17 @@
+<div class="teste">
+    <p-card >
+        <div class="p-jc-center">
+            <label>Nome </label>
+            <input [(ngModel)]="requestLoginDois.login" type="text" pInputText />
+        </div>
+        <div class="p-jc-center">
+            <label>Senha </label>
+            <input [(ngModel)]="requestLoginDois.password" type="password" pInputText />
+        </div>
+        <div>
+            <button (click)="loginDois()" pButton type="button">
+                Entrar
+            </button>
+        </div>
+    </p-card>
+</div>

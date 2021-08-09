@@ -1,0 +1,20 @@
+<div class="p-d-flex">
+    <p-card>
+        <div class="p-jc-center">
+            <label>Nome </label>
+            <input [(ngModel)]="requestLogin.login" type="text" pInputText />
+        </div>
+        <div class="p-jc-center">
+            <label>Senha </label>
+            <input [(ngModel)]="requestLogin.password" type="password" pInputText />
+        </div>
+        <div>
+            <button 
+                (click)="login()" 
+                pButton
+                type="button">
+                Entrar
+            </button>
+        </div>
+    </p-card>
+</div>
