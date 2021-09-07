@@ -12,6 +12,6 @@ export class LoginDoisService {
   constructor(private httpClient: HttpClient) { }
 
   public doLoginDois(requestLoginDois: RequestLoginDois): Observable<ResponseLoginDois>{
-    return this.httpClient.post<ResponseLoginDois>('http://localhost:8080/api/login', requestLoginDois)
+    return this.httpClient.post<ResponseLoginDois>('http://127.0.0.1:8000/api/login', requestLoginDois)
   }
 }
