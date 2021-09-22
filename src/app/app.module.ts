@@ -1,3 +1,4 @@
+import { CheckboxComponent } from './views/checkbox/checkbox.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,7 +16,8 @@ import { LoginDoisComponent } from './login-dois/login-dois.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    LoginDoisComponent
+    LoginDoisComponent,
+    CheckboxComponent
   ],
   imports: [
     BrowserModule,

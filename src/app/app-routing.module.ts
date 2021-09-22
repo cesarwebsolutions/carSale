@@ -1,3 +1,5 @@
+import { CheckboxComponent } from './views/checkbox/checkbox.component';
+
 import { LoginDoisComponent } from './login-dois/login-dois.component';
 import { LoginComponent } from './views/login/login.component';
 import { NgModule } from '@angular/core';
@@ -14,6 +16,7 @@ const routes: Routes = [
     (module) => module.DashboardModule
     ),
   },
+  {path: 'checkbox', component: CheckboxComponent}
 ];
 
 @NgModule({
